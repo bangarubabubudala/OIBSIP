@@ -1,0 +1,217 @@
+CODE :
+
+
+
+<!DOCKTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			html{
+				background-image:linear-gradient(cadetblue, darkolivegreen);
+				}
+			.header{
+				
+				padding:20px;
+				text-align:center;
+				}
+			body{
+				background-image:linear-gradient(antiquewhite, white );
+				width: 1230px;
+				height: auto;
+				border: 15px;
+				margin: 20px;
+				padding: 0px 40px 40px 40px;				
+				}
+			.topnav{
+				overflow: hidden;
+				background-color: olive;
+				}
+			.topnav a{
+				float:left;
+				display: block;
+				padding: 6px 10px;
+				color: midnightblue;
+				text-align: center;
+				font-size: 16px;
+				font-family: lucida handwriting;
+				transition: all 1s;
+				cursor: pointer;
+				margin: 3px;
+				border-radius: 8px;
+				}
+			.topnav a:hover{
+				background-color: orange;
+				color: black;
+				}
+			.topnav a.active{
+				background-color: black;
+				color: white;
+				}
+			.att1{
+				color: lightseagreen;
+				text-align: left;
+				font-family: tahoma;
+			
+				}
+			.att2{
+				font-size:20px;
+				font-family: trebuchet ms;
+				}
+			.att3{
+				font-size:20px;
+				font-family: trebuchet ms;
+				text-align: left;
+				image-align: left;
+				}
+			.image{
+				width:1250px;
+				height:200px;
+				padding: 10px 20px 10px 10px;
+				}
+			.footer{
+				width:1230;
+				height: auto;
+				color: gray;
+				background-color: whitesmoke;
+				font-family: garamond;
+				text-align: center;
+				} 
+		</style>
+		
+		<title> Landing Page </title>
+	</head>
+		
+	
+	<body>
+		<div class="header" class="a">
+		<p><img src="C:\Users\banga\Desktop\HTML\infobyte-logo.png" alt="infobyte logo" width="110" height="100"></p>
+		<h1 style="font-family:sans-serif;text-align:center;color:dodgerblue;padding:10px 20px;"> OASIS INFOBYTE <h1>
+		</div>
+		<div class="topnav">
+			<a class="active" href="#home"> Home </a>
+			<a href="#news"> News </a>
+			<a href="#contact"> Contact </a>
+			<a href="#about"> About </a>
+		</div>
+		<div class="att1">
+			<h2> Web Development and Designing <h2>
+		</div>
+
+		<div class="att2">
+		<p >
+			<b>Oasis Infobyte</b> is giving great opportunuties for the students interested in web development and designing with free of cost.
+			it's very help full for the student from the rural background who can not effort money on internships.
+			and it's giving number of challenging tasks to the students.
+		</p> </div>
+		<div class="att1">
+			<h3> Opportunuties <h3> 
+			</div> 
+
+
+		<div class="att2"> <p> Oasis infobyte providing various internships in different domains for the students.</p> </div>
+		
+		
+		<h3 class="att3"> Web Development Internship <h3>
+		<div class="image">
+			
+			
+			<img src="C:\Users\banga\Desktop\HTML\Website designer.svg" width="200" height="200" align="left" >
+			<p style="font-family:monospace;font-size:20px;color:gray;">
+				The Web Development Internship Offers Practical Work
+				Experience And An Introduction To Creating And Improving
+				Web-Based Systems. This Internship Will Involve Challenging
+				Opportunities, Real World Projects. It's A Fantastic
+				Opportunity To Gain Hands-On Experience In The Web And/Or App
+				Development Field With An Award-Winning Innovation Team.
+			</p>
+			
+			
+			</div>
+
+			<div><h3 class="att3">Graphic Design Internship <h3></div>
+			
+			<div class="image">
+			
+			
+			<img src="C:\Users\banga\Desktop\HTML\ui.svg" width="200" height="200" align="right">
+			<p style="font-family:monospace;font-size:20px;color:gray;">
+				With A Graphic Design Internship, You Will Be Involved In Projects That Focus On Nearly Every Aspect
+				Of A Business's Visual Design Strategies. Your Internship Tasks May Include Creating Graphic And Video Content,
+				Template Design, Web Design Work, And Many More Exciting Tasks. Plus Our Graphic Design Internships Range In
+				Industries, So We Work With You To Find One That Best Matches Your Career Goals.
+			</p>
+			</div>
+			<div><h3 class="att3"> Java Programming <h3></div>
+			
+			<div class="image">
+			
+			
+			<img src="C:\Users\banga\Desktop\HTML\Coworking-rafiki (1).svg" width="200" height="200" align="left">
+			<p style="font-family:monospace;font-size:20px;color:gray;">
+				Master The Fundamentals Of Programming In Java From The Comfort Of Your Home And Get Certified To Apply
+				For Great Job Opportunities. A With 4-Week Comprehensive Internship Program Where You Will Learn Right
+ 				From Development To Deployment Of Web Applications Made Using Java. Get First-Hand Exposure To Working In
+				The Real World, Build Your Professional Network, Integrate Classroom Knowledge And Theory With Practical
+				Application And Skills Developed In Professional Or Community Settings.
+			</p>
+			</div>
+
+			<div><h3 class="att3"> Android Development <h3></div>
+			<div class="image">
+			
+			
+			<img src="C:\Users\banga\Desktop\HTML\ui (1).svg" width="200" height="200" align="right" >
+			<p style="font-family:monospace;font-size:20px;color:gray;">
+				Android Is An Open Source Operating For Mobile Application Development.Now A Days People Continuously Shifting
+				To Mobile Devices To Access Internet Application And Other Important Tasks.Which Is More Easy Than To Work On PC.
+				It It Best Choice To Getting Started Your First App With OASIS INFOBYTE.
+			</p>
+			
+			
+			</div>
+
+			<div><h3 class="att3"> Data Science Internships <h3></div>
+			<div class="image">
+			
+			
+			<img src="C:\Users\banga\Desktop\HTML\Data extraction-rafiki (1).svg" width="200" height="200" align="left" >
+			<p style="font-family:monospace;font-size:20px;color:gray;">
+				Remote Data Science Internships Are A Unique Chance To Gain Experience In The Midst Of The Virtual Workforce 
+				While Remaining Immersed In One Of The Top Organizations In The Field. Data Analysis Internships Are Some Of
+				The Most Competitive And Popular Within The Broader Data Science Field.
+			</p>
+			
+			
+			</div>
+			<div><h3 class="att3"> Cloud Computing Internship <h3></div>
+			<div class="image">
+			
+			
+			<img src="C:\Users\banga\Desktop\HTML\Cloud hosting-bro (1).svg" width="200" height="200" align="right">
+			<p style="font-family:monospace;font-size:20px;color:gray;">
+				We Offers, Cloud Computing Internship . Cloud Internship Provides You An In-Depth Knowledge On Cloud Computing.
+				This Cloud Computing Internship For Freshers , Enables The Students To Understand And Learn The Current Trend In
+				The Job Market. Students Will Prefer Cloud Computing Training To Build Their Profile For Their Jobs And Also For 
+				Their Higher Studies.
+			</p>
+			
+			
+			</div>
+				<div class="footer">
+				<p> Help Desk:  <a href="mailto:bangarubabubudala@gmail.com" color="sienna">Mail any issue</a></p>
+				<p > Thank you for visiting this page </p>
+				<p > Best Regards. </p>
+				</div>
+		
+		
+		
+
+
+	</body>
+		
+
+</html>
+        
+		  
